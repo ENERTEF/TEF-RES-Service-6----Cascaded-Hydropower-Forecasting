@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets and local config
+.env
+.env.*
+
+# Data and run outputs: never commit (PPC operational data and everything derived from it)
+data/
+output/
+*.csv
+*.parquet
+*.xlsx
+*.pptx
